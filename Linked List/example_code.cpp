@@ -63,7 +63,7 @@ int main(){
     insertAtTail(head,3);
     insertAtHead(head,0);
     display(head);
-    cout<<"\n"<<search(head,0);
-
+    cout<<"\n"<<search(head,0)<<" ";
+    cout<<ceil(5/4);
     return 0;
 }
