@@ -50,7 +50,7 @@ class Solution {
 
     */
 
-    // Memoization
+    /* Memoization
 
     public int findLCS(String s1, int n,String s2,int m, int[][] t){
         if(n==0 || m==0){
@@ -68,5 +68,6 @@ class Solution {
         return t[n][m] = Math.max(findLCS(s1, n, s2, m-1, t) , findLCS(s1, n-1, s2, m, t));
     }
 
+    */
 
 }
